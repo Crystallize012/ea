@@ -1,41 +1,9 @@
-# Compiled Lua sources
-luac.out
+while wait() do 
+local args = {
+    [1] = "bind",
+    [2] = Vector3.new(-11.806083679199219, 1.149999976158142, 333.9830627441406)
+}
 
-# luarocks build files
-*.src.rock
-*.zip
-*.tar.gz
+game:GetService("Players").LocalPlayer.Character.FishingRod.LocalScript.RemoteFunction:InvokeServer(unpack(args))
 
-# Object files
-*.o
-*.os
-*.ko
-*.obj
-*.elf
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-*.def
-*.exp
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
+end

@@ -1,9 +1,1 @@
-while wait() do 
-local args = {
-    [1] = "bind",
-    [2] = Vector3.new(-11.806083679199219, 1.149999976158142, 333.9830627441406)
-}
-
-game:GetService("Players").LocalPlayer.Character.FishingRod.LocalScript.RemoteFunction:InvokeServer(unpack(args))
-
-end
+ezzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
